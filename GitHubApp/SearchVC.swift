@@ -12,6 +12,7 @@ class SearchVC: UIViewController {
     let usernameTextField          = GATextField()
     let callToActionButton         = GAButton(backgroundColor: .systemGreen, title: "Get Followers")
     var isUsernameEntered: Bool {
+        presentGAAlertOnMainThread(title: "Empty Username", message: "Please enter a username. We need to know who to look to for 😀", buttonTitle: "Ok")
         return !usernameTextField.text!.isEmpty
     }
     

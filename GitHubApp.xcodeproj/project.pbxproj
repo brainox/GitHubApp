@@ -11,6 +11,7 @@
 		7D149F9428BA582500575D5A /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D149F9328BA582500575D5A /* FavoritesListVC.swift */; };
 		7D149F9628BA5FB400575D5A /* GAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D149F9528BA5FB400575D5A /* GAButton.swift */; };
 		7D149F9828BA760300575D5A /* GATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D149F9728BA760200575D5A /* GATextField.swift */; };
+		BE0E7A3328BA8EFB00620603 /* FollowersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A3228BA8EFB00620603 /* FollowersListVC.swift */; };
 		BED90CB928BA45A0003A65EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED90CB828BA45A0003A65EA /* AppDelegate.swift */; };
 		BED90CBB28BA45A0003A65EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED90CBA28BA45A0003A65EA /* SceneDelegate.swift */; };
 		BED90CC228BA45A3003A65EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED90CC128BA45A3003A65EA /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		7D149F9328BA582500575D5A /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		7D149F9528BA5FB400575D5A /* GAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAButton.swift; sourceTree = "<group>"; };
 		7D149F9728BA760200575D5A /* GATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATextField.swift; sourceTree = "<group>"; };
+		BE0E7A3228BA8EFB00620603 /* FollowersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListVC.swift; sourceTree = "<group>"; };
 		BED90CB528BA45A0003A65EA /* GitHubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED90CB828BA45A0003A65EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BED90CBA28BA45A0003A65EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				7D149F9328BA582500575D5A /* FavoritesListVC.swift */,
 				7D149F9528BA5FB400575D5A /* GAButton.swift */,
 				7D149F9728BA760200575D5A /* GATextField.swift */,
+				BE0E7A3228BA8EFB00620603 /* FollowersListVC.swift */,
 				BED90CC128BA45A3003A65EA /* Assets.xcassets */,
 				BED90CC328BA45A3003A65EA /* LaunchScreen.storyboard */,
 				BED90CC628BA45A3003A65EA /* Info.plist */,
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D149F9228BA57FD00575D5A /* SearchVC.swift in Sources */,
+				BE0E7A3328BA8EFB00620603 /* FollowersListVC.swift in Sources */,
 				7D149F9428BA582500575D5A /* FavoritesListVC.swift in Sources */,
 				BED90CB928BA45A0003A65EA /* AppDelegate.swift in Sources */,
 				7D149F9828BA760300575D5A /* GATextField.swift in Sources */,

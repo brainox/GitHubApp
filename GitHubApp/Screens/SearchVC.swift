@@ -6,13 +6,12 @@
 //
 
 import UIKit
- 
+
 class SearchVC: UIViewController {
     let logoImageView              = UIImageView()
     let usernameTextField          = GATextField()
     let callToActionButton         = GAButton(backgroundColor: .systemGreen, title: "Get Followers")
     var isUsernameEntered: Bool {
-        presentGAAlertOnMainThread(title: "Empty Username", message: "Please enter a username. We need to know who to look to for 😀", buttonTitle: "Ok")
         return !usernameTextField.text!.isEmpty
     }
     
@@ -27,7 +26,7 @@ class SearchVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        navigationController?.isNavigationBarHidden = true
+        navigationController?.setNavigationBarHidden(false, animated: true)
     }
     
     func createDismissKeyboardTapGesture() {
@@ -37,7 +36,7 @@ class SearchVC: UIViewController {
     
     @objc func pushFollowersListVC() {
         guard isUsernameEntered else {
-            print("No username")
+            presentGAAlertOnMainThread(title: "Empty Username", message: "Please enter a username. We need to know who to look to for 😀", buttonTitle: "Ok")
             return
         }
         let followerListVC          = FollowersListVC()

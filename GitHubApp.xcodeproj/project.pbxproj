@@ -11,6 +11,9 @@
 		7D149F9428BA582500575D5A /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D149F9328BA582500575D5A /* FavoritesListVC.swift */; };
 		7D149F9628BA5FB400575D5A /* GAButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D149F9528BA5FB400575D5A /* GAButton.swift */; };
 		7D149F9828BA760300575D5A /* GATextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D149F9728BA760200575D5A /* GATextField.swift */; };
+		7D2978DC28BEC06500BC0883 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2978DB28BEC06500BC0883 /* ErrorMessage.swift */; };
+		7DA189A828BEC38700EF645B /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA189A728BEC38700EF645B /* FollowerCell.swift */; };
+		7DA189AA28BEC3D900EF645B /* GAAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA189A928BEC3D900EF645B /* GAAvatarImageView.swift */; };
 		BE0E7A3328BA8EFB00620603 /* FollowersListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A3228BA8EFB00620603 /* FollowersListVC.swift */; };
 		BE0E7A3528BA961F00620603 /* GATitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A3428BA961F00620603 /* GATitleLabel.swift */; };
 		BE0E7A3728BA9F3000620603 /* GABodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A3628BA9F3000620603 /* GABodyLabel.swift */; };
@@ -19,7 +22,6 @@
 		BE0E7A4228BBB7DF00620603 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A4128BBB7DF00620603 /* Follower.swift */; };
 		BE0E7A4428BBB83500620603 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A4328BBB83500620603 /* User.swift */; };
 		BE0E7A4728BBBF6400620603 /* NetworkManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A4628BBBF6400620603 /* NetworkManagers.swift */; };
-		BE0E7A4B28BC0D2300620603 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A4A28BC0D2300620603 /* ErrorMessage.swift */; };
 		BED90CB928BA45A0003A65EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED90CB828BA45A0003A65EA /* AppDelegate.swift */; };
 		BED90CBB28BA45A0003A65EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED90CBA28BA45A0003A65EA /* SceneDelegate.swift */; };
 		BED90CC228BA45A3003A65EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED90CC128BA45A3003A65EA /* Assets.xcassets */; };
@@ -31,6 +33,9 @@
 		7D149F9328BA582500575D5A /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
 		7D149F9528BA5FB400575D5A /* GAButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAButton.swift; sourceTree = "<group>"; };
 		7D149F9728BA760200575D5A /* GATextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATextField.swift; sourceTree = "<group>"; };
+		7D2978DB28BEC06500BC0883 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		7DA189A728BEC38700EF645B /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		7DA189A928BEC3D900EF645B /* GAAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAAvatarImageView.swift; sourceTree = "<group>"; };
 		BE0E7A3228BA8EFB00620603 /* FollowersListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersListVC.swift; sourceTree = "<group>"; };
 		BE0E7A3428BA961F00620603 /* GATitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GATitleLabel.swift; sourceTree = "<group>"; };
 		BE0E7A3628BA9F3000620603 /* GABodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GABodyLabel.swift; sourceTree = "<group>"; };
@@ -39,7 +44,6 @@
 		BE0E7A4128BBB7DF00620603 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		BE0E7A4328BBB83500620603 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BE0E7A4628BBBF6400620603 /* NetworkManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagers.swift; sourceTree = "<group>"; };
-		BE0E7A4A28BC0D2300620603 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		BED90CB528BA45A0003A65EA /* GitHubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED90CB828BA45A0003A65EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BED90CBA28BA45A0003A65EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D2978DA28BEC05600BC0883 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7D2978DB28BEC06500BC0883 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7DA189A628BEC37900EF645B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7DA189A728BEC38700EF645B /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		BE0E7A3C28BAB2A700620603 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +92,9 @@
 		BE0E7A3D28BAB2DC00620603 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				7DA189A628BEC37900EF645B /* Cells */,
 				BE0E7A3828BAA04E00620603 /* GAAlertVC.swift */,
+				7DA189A928BEC3D900EF645B /* GAAvatarImageView.swift */,
 				7D149F9528BA5FB400575D5A /* GAButton.swift */,
 				7D149F9728BA760200575D5A /* GATextField.swift */,
 				BE0E7A3428BA961F00620603 /* GATitleLabel.swift */,
@@ -117,19 +139,10 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		BE0E7A4928BC0D1100620603 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				BE0E7A4A28BC0D2300620603 /* ErrorMessage.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
 		BED90CAC28BA45A0003A65EA = {
 			isa = PBXGroup;
 			children = (
 				BED90CB728BA45A0003A65EA /* GitHubApp */,
-				BED90CC628BA45A3003A65EA /* Info.plist */,
 				BED90CB628BA45A0003A65EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -145,7 +158,8 @@
 		BED90CB728BA45A0003A65EA /* GitHubApp */ = {
 			isa = PBXGroup;
 			children = (
-				BE0E7A4928BC0D1100620603 /* Utilities */,
+				BED90CC628BA45A3003A65EA /* Info.plist */,
+				7D2978DA28BEC05600BC0883 /* Utilities */,
 				BE0E7A4828BBBF7400620603 /* Managers */,
 				BE0E7A4028BBB7CE00620603 /* Model */,
 				BE0E7A3F28BAB36100620603 /* Support */,
@@ -233,9 +247,11 @@
 				BE0E7A3328BA8EFB00620603 /* FollowersListVC.swift in Sources */,
 				7D149F9428BA582500575D5A /* FavoritesListVC.swift in Sources */,
 				BED90CB928BA45A0003A65EA /* AppDelegate.swift in Sources */,
-				BE0E7A4B28BC0D2300620603 /* ErrorMessage.swift in Sources */,
+				7DA189A828BEC38700EF645B /* FollowerCell.swift in Sources */,
+				7D2978DC28BEC06500BC0883 /* ErrorMessage.swift in Sources */,
 				BE0E7A3528BA961F00620603 /* GATitleLabel.swift in Sources */,
 				BE0E7A4228BBB7DF00620603 /* Follower.swift in Sources */,
+				7DA189AA28BEC3D900EF645B /* GAAvatarImageView.swift in Sources */,
 				BE0E7A4728BBBF6400620603 /* NetworkManagers.swift in Sources */,
 				7D149F9828BA760300575D5A /* GATextField.swift in Sources */,
 				7D149F9628BA5FB400575D5A /* GAButton.swift in Sources */,

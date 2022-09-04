@@ -26,6 +26,7 @@
 		BED90CBB28BA45A0003A65EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED90CBA28BA45A0003A65EA /* SceneDelegate.swift */; };
 		BED90CC228BA45A3003A65EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED90CC128BA45A3003A65EA /* Assets.xcassets */; };
 		BED90CC528BA45A3003A65EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED90CC328BA45A3003A65EA /* LaunchScreen.storyboard */; };
+		BEFE872528C4D37800EF9E02 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE872428C4D37800EF9E02 /* UIHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		BED90CC128BA45A3003A65EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BED90CC428BA45A3003A65EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BED90CC628BA45A3003A65EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEFE872428C4D37800EF9E02 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				7D2978DB28BEC06500BC0883 /* ErrorMessage.swift */,
+				BEFE872428C4D37800EF9E02 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				BE0E7A3B28BAADBC00620603 /* UIViewController+Extension.swift in Sources */,
 				BE0E7A3928BAA04E00620603 /* GAAlertVC.swift in Sources */,
 				BE0E7A3328BA8EFB00620603 /* FollowersListVC.swift in Sources */,
+				BEFE872528C4D37800EF9E02 /* UIHelper.swift in Sources */,
 				7D149F9428BA582500575D5A /* FavoritesListVC.swift in Sources */,
 				BED90CB928BA45A0003A65EA /* AppDelegate.swift in Sources */,
 				7DA189A828BEC38700EF645B /* FollowerCell.swift in Sources */,

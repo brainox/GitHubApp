@@ -27,6 +27,7 @@
 		BED90CC228BA45A3003A65EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED90CC128BA45A3003A65EA /* Assets.xcassets */; };
 		BED90CC528BA45A3003A65EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BED90CC328BA45A3003A65EA /* LaunchScreen.storyboard */; };
 		BEFE872528C4D37800EF9E02 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE872428C4D37800EF9E02 /* UIHelper.swift */; };
+		BEFE872D28C57B6500EF9E02 /* GAEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE872C28C57B6500EF9E02 /* GAEmptyStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		BED90CC428BA45A3003A65EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BED90CC628BA45A3003A65EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEFE872428C4D37800EF9E02 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		BEFE872C28C57B6500EF9E02 /* GAEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAEmptyStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,13 +97,13 @@
 		BE0E7A3D28BAB2DC00620603 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				BEFE872B28C5799A00EF9E02 /* Labels */,
+				BEFE872A28C5794300EF9E02 /* ViewControllers */,
+				BEFE872928C5793500EF9E02 /* ImageViews */,
+				BEFE872828C5792700EF9E02 /* Buttons */,
+				BEFE872728C5791900EF9E02 /* Textfields */,
+				BEFE872628C5790300EF9E02 /* Views */,
 				7DA189A628BEC37900EF645B /* Cells */,
-				BE0E7A3828BAA04E00620603 /* GAAlertVC.swift */,
-				7DA189A928BEC3D900EF645B /* GAAvatarImageView.swift */,
-				7D149F9528BA5FB400575D5A /* GAButton.swift */,
-				7D149F9728BA760200575D5A /* GATextField.swift */,
-				BE0E7A3428BA961F00620603 /* GATitleLabel.swift */,
-				BE0E7A3628BA9F3000620603 /* GABodyLabel.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -171,6 +173,55 @@
 				BE0E7A3C28BAB2A700620603 /* Screens */,
 			);
 			path = GitHubApp;
+			sourceTree = "<group>";
+		};
+		BEFE872628C5790300EF9E02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BEFE872C28C57B6500EF9E02 /* GAEmptyStateView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BEFE872728C5791900EF9E02 /* Textfields */ = {
+			isa = PBXGroup;
+			children = (
+				7D149F9728BA760200575D5A /* GATextField.swift */,
+			);
+			name = Textfields;
+			sourceTree = "<group>";
+		};
+		BEFE872828C5792700EF9E02 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				7D149F9528BA5FB400575D5A /* GAButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		BEFE872928C5793500EF9E02 /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				7DA189A928BEC3D900EF645B /* GAAvatarImageView.swift */,
+			);
+			name = ImageViews;
+			sourceTree = "<group>";
+		};
+		BEFE872A28C5794300EF9E02 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BE0E7A3828BAA04E00620603 /* GAAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BEFE872B28C5799A00EF9E02 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				BE0E7A3428BA961F00620603 /* GATitleLabel.swift */,
+				BE0E7A3628BA9F3000620603 /* GABodyLabel.swift */,
+			);
+			name = Labels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +306,7 @@
 				7D2978DC28BEC06500BC0883 /* ErrorMessage.swift in Sources */,
 				BE0E7A3528BA961F00620603 /* GATitleLabel.swift in Sources */,
 				BE0E7A4228BBB7DF00620603 /* Follower.swift in Sources */,
+				BEFE872D28C57B6500EF9E02 /* GAEmptyStateView.swift in Sources */,
 				7DA189AA28BEC3D900EF645B /* GAAvatarImageView.swift in Sources */,
 				BE0E7A4728BBBF6400620603 /* NetworkManagers.swift in Sources */,
 				7D149F9828BA760300575D5A /* GATextField.swift in Sources */,

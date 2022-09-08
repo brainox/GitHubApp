@@ -22,6 +22,7 @@
 		BE0E7A4228BBB7DF00620603 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A4128BBB7DF00620603 /* Follower.swift */; };
 		BE0E7A4428BBB83500620603 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A4328BBB83500620603 /* User.swift */; };
 		BE0E7A4728BBBF6400620603 /* NetworkManagers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0E7A4628BBBF6400620603 /* NetworkManagers.swift */; };
+		BE911FBC28C99ABC00070696 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE911FBB28C99ABC00070696 /* Constants.swift */; };
 		BED90CB928BA45A0003A65EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED90CB828BA45A0003A65EA /* AppDelegate.swift */; };
 		BED90CBB28BA45A0003A65EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED90CBA28BA45A0003A65EA /* SceneDelegate.swift */; };
 		BED90CC228BA45A3003A65EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED90CC128BA45A3003A65EA /* Assets.xcassets */; };
@@ -29,6 +30,8 @@
 		BEFE872528C4D37800EF9E02 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE872428C4D37800EF9E02 /* UIHelper.swift */; };
 		BEFE872D28C57B6500EF9E02 /* GAEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE872C28C57B6500EF9E02 /* GAEmptyStateView.swift */; };
 		BEFE878428C82A1100EF9E02 /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE878328C82A1000EF9E02 /* UserInfoVC.swift */; };
+		BEFE878628C8FFDA00EF9E02 /* GAUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE878528C8FFDA00EF9E02 /* GAUserInfoHeaderVC.swift */; };
+		BEFE878828C900E300EF9E02 /* GASecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFE878728C900E300EF9E02 /* GASecondaryTitleLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +50,7 @@
 		BE0E7A4128BBB7DF00620603 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		BE0E7A4328BBB83500620603 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BE0E7A4628BBBF6400620603 /* NetworkManagers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagers.swift; sourceTree = "<group>"; };
+		BE911FBB28C99ABC00070696 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BED90CB528BA45A0003A65EA /* GitHubApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED90CB828BA45A0003A65EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BED90CBA28BA45A0003A65EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		BEFE872428C4D37800EF9E02 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		BEFE872C28C57B6500EF9E02 /* GAEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAEmptyStateView.swift; sourceTree = "<group>"; };
 		BEFE878328C82A1000EF9E02 /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
+		BEFE878528C8FFDA00EF9E02 /* GAUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAUserInfoHeaderVC.swift; sourceTree = "<group>"; };
+		BEFE878728C900E300EF9E02 /* GASecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GASecondaryTitleLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 			children = (
 				7D2978DB28BEC06500BC0883 /* ErrorMessage.swift */,
 				BEFE872428C4D37800EF9E02 /* UIHelper.swift */,
+				BE911FBB28C99ABC00070696 /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -214,6 +221,7 @@
 			isa = PBXGroup;
 			children = (
 				BE0E7A3828BAA04E00620603 /* GAAlertVC.swift */,
+				BEFE878528C8FFDA00EF9E02 /* GAUserInfoHeaderVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -223,6 +231,7 @@
 			children = (
 				BE0E7A3428BA961F00620603 /* GATitleLabel.swift */,
 				BE0E7A3628BA9F3000620603 /* GABodyLabel.swift */,
+				BEFE878728C900E300EF9E02 /* GASecondaryTitleLabel.swift */,
 			);
 			name = Labels;
 			sourceTree = "<group>";
@@ -303,11 +312,14 @@
 				BE0E7A3928BAA04E00620603 /* GAAlertVC.swift in Sources */,
 				BE0E7A3328BA8EFB00620603 /* FollowersListVC.swift in Sources */,
 				BEFE872528C4D37800EF9E02 /* UIHelper.swift in Sources */,
+				BE911FBC28C99ABC00070696 /* Constants.swift in Sources */,
 				7D149F9428BA582500575D5A /* FavoritesListVC.swift in Sources */,
+				BEFE878628C8FFDA00EF9E02 /* GAUserInfoHeaderVC.swift in Sources */,
 				BED90CB928BA45A0003A65EA /* AppDelegate.swift in Sources */,
 				7DA189A828BEC38700EF645B /* FollowerCell.swift in Sources */,
 				7D2978DC28BEC06500BC0883 /* ErrorMessage.swift in Sources */,
 				BE0E7A3528BA961F00620603 /* GATitleLabel.swift in Sources */,
+				BEFE878828C900E300EF9E02 /* GASecondaryTitleLabel.swift in Sources */,
 				BE0E7A4228BBB7DF00620603 /* Follower.swift in Sources */,
 				BEFE872D28C57B6500EF9E02 /* GAEmptyStateView.swift in Sources */,
 				7DA189AA28BEC3D900EF645B /* GAAvatarImageView.swift in Sources */,

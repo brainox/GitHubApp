@@ -22,15 +22,11 @@ class UserInfoVC: UIViewController {
         navigationItem.rightBarButtonItem = doneButton
         
         layoutUI()
-        
         getUserInfo()
-        
     }
     
     fileprivate func configureViewController() {
         view.backgroundColor = .systemBackground
-        itemViewOne.backgroundColor = .systemPink
-        itemViewTwo.backgroundColor = .systemBlue
     }
     
     fileprivate func getUserInfo() {
@@ -40,6 +36,8 @@ class UserInfoVC: UIViewController {
             case .success(let user):
                 DispatchQueue.main.async {
                     self.add(childVC: GAUserInfoHeaderVC(user: user), to: self.headerView)
+                    self.add(childVC: GARepoItemVC(user: user), to: self.itemViewOne)
+                    self.add(childVC: GAFollowerItemVC(user: user), to: self.itemViewTwo)
                 }
             case .failure(let error):
                 self.presentGAAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "ok")
@@ -53,9 +51,6 @@ class UserInfoVC: UIViewController {
             view.addSubview($0)
             $0.translatesAutoresizingMaskIntoConstraints = false
         }
-        
-        itemViewOne.backgroundColor = .systemPink
-        itemViewTwo.backgroundColor = .systemBlue
 
         
         let padding: CGFloat    = 20

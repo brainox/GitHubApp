@@ -39,7 +39,7 @@ class UserInfoVC: UIViewController {
                     self.add(childVC: GAUserInfoHeaderVC(user: user), to: self.headerView)
                     self.add(childVC: GARepoItemVC(user: user), to: self.itemViewOne)
                     self.add(childVC: GAFollowerItemVC(user: user), to: self.itemViewTwo)
-                    self.dateLabel.text = "Date to be done"
+                    self.dateLabel.text = "Github since \(user.createdAt.convertToDisplayFormat())"
                 }
             case .failure(let error):
                 self.presentGAAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "ok")

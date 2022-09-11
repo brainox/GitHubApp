@@ -11,6 +11,7 @@ class UserInfoVC: UIViewController {
     let headerView          = UIView()
     let itemViewOne         = UIView()
     let itemViewTwo         = UIView()
+    let dateLabel           = GABodyLabel(textAlignment: .center)
     
     var username: String!
 
@@ -38,6 +39,7 @@ class UserInfoVC: UIViewController {
                     self.add(childVC: GAUserInfoHeaderVC(user: user), to: self.headerView)
                     self.add(childVC: GARepoItemVC(user: user), to: self.itemViewOne)
                     self.add(childVC: GAFollowerItemVC(user: user), to: self.itemViewTwo)
+                    self.dateLabel.text = "Date to be done"
                 }
             case .failure(let error):
                 self.presentGAAlertOnMainThread(title: "Something went wrong", message: error.rawValue, buttonTitle: "ok")
@@ -46,30 +48,33 @@ class UserInfoVC: UIViewController {
     }
     
     func layoutUI() {
-        view.addSubview(headerView)
-        [headerView, itemViewOne, itemViewTwo].forEach {
-            view.addSubview($0)
-            $0.translatesAutoresizingMaskIntoConstraints = false
-        }
-
         
         let padding: CGFloat    = 20
-        let itemHeight: CGFloat          = 140
+        let itemHeight: CGFloat = 140
+        
+        view.addSubview(headerView)
+        [headerView, itemViewOne, itemViewTwo, dateLabel].forEach {
+            view.addSubview($0)
+            $0.translatesAutoresizingMaskIntoConstraints = false
+            
+            NSLayoutConstraint.activate([
+                $0.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
+                $0.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
+            ])
+        }
+      
         NSLayoutConstraint.activate([
             headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-            headerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-            headerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             headerView.heightAnchor.constraint(equalToConstant: 210),
             
             itemViewOne.topAnchor.constraint(equalTo: headerView.bottomAnchor, constant: padding),
-            itemViewOne.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
-            itemViewOne.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
             itemViewOne.heightAnchor.constraint(equalToConstant: itemHeight),
             
             itemViewTwo.topAnchor.constraint(equalTo: itemViewOne.bottomAnchor, constant: padding),
-            itemViewTwo.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
-            itemViewTwo.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
             itemViewTwo.heightAnchor.constraint(equalToConstant: itemHeight),
+            
+            dateLabel.topAnchor.constraint(equalTo: itemViewTwo.bottomAnchor, constant: padding),
+            dateLabel.heightAnchor.constraint(equalToConstant: 18)
         ])
     }
     
